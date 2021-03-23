@@ -1,0 +1,116 @@
+
+body{
+    background-image:url('image/AAAABbOymx7zApiRkB4v8RlqPyDcTKk403CX_3kF9AmSltYMW-7mOI54Rimond4ElEj5huQMTf_nPAiJYViyei3JdEij4PoF.webp');
+    background-size:100% 1000px;
+    background-repeat:no-repeat;
+    margin : 0px;
+    background-color: black;
+    color:white;
+}
+.navbar{
+    padding-left:2%;
+    padding-right:2%;
+    position:fixed;
+    width:96%;
+    height:60px;
+}
+ul{
+    list-style-type:none;
+    display: inline;
+}
+li{
+    display: inline;
+    margin:10px;
+}
+a{
+    text-decoration: none;
+    width:100%;
+    text-align: center;
+}
+.right{
+    float:right;
+}
+header{
+    margin-left:40px;
+    padding-top:80px;
+}
+header > div > p{
+    width: 700px;
+    font-size:26px;
+}
+header > div > h1{
+    font-size:30px;
+    display : inline;
+    text-align:center;
+    margin: auto 0px;
+    position:absolute;
+    height:50px;
+    top:0; bottom:0; margin:auto 5px;
+}
+.btn{
+    height:55px;
+    font-size:20px;
+    font-weight: bold;
+    border-radius:5px;
+    margin:5px;
+}
+.btn-white:hover{
+    background:rgba(255, 255, 255, 0.774);
+}
+.btn-gray:hover{
+    background:rgba(128, 128, 128, 0.534);
+}
+.btn-white{
+    background-color: white;
+    color:black;
+    border: 2px solid rgba(255, 255, 255, 0);
+    width:160px;
+}
+.btn-gray{
+    background-color:rgba(128, 128, 128, 0.719);
+    color:white;
+    border: 2px solid rgba(255, 255, 255, 0);
+    width:230px;
+}
+section{
+    margin:0px 40px;
+}
+.image > img {
+    border-radius:5px;
+    width:280px;
+    height: 160px;
+}
+.image{
+    display:inline-block;
+    background-color: black;
+}
+section > div > h1{
+    font-size:27px;
+}
+.navbar > div{
+    margin:10px;
+    display:inline;
+}
+.image:hover{
+    transform:scale(1.1);
+    transition: all 0.3s ease-in;
+}
+.content{
+    display:none;
+}
+.image:hover .content{
+    display:block;
+}
+.icon{
+    border:1px solid white;
+    border-radius:50px;
+    padding:10px;
+    font-size:20px;
+}
+footer{
+    color: gray;
+    font-size:13px;
+    width: 1000px;
+    margin: 10px auto;
+    margin-top: 100px;
+}
